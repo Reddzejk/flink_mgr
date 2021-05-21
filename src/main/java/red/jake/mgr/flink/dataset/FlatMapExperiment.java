@@ -1,16 +1,16 @@
-package red.jake.mgr.pojo;
+package red.jake.mgr.flink.dataset;
 
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.util.Collector;
-import red.jake.mgr.BaseJob;
-import red.jake.mgr.pojo.model.AirlineHeader;
-import red.jake.mgr.pojo.model.RowAirline;
-import red.jake.mgr.pojo.model.RowDelayType;
-import red.jake.mgr.utils.EnvironmentType;
-import red.jake.mgr.utils.SourceFactory;
+import red.jake.mgr.flink.BaseJob;
+import red.jake.mgr.flink.model.AirlineHeader;
+import red.jake.mgr.flink.model.RowAirline;
+import red.jake.mgr.flink.model.RowDelayType;
+import red.jake.mgr.flink.utils.EnvironmentType;
+import red.jake.mgr.flink.utils.SourceFactory;
 
 import java.util.Optional;
 

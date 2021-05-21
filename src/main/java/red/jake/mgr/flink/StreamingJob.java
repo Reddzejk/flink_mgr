@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package red.jake.mgr;
+package red.jake.mgr.flink;
 
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
